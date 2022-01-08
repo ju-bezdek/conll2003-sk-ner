@@ -1,6 +1,4 @@
 *.picle
-*.json
-*.parquet
 results/**
 /models/**
 /tmp
