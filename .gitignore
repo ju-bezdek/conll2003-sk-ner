@@ -1,0 +1,11 @@
+*.picle
+*.json
+*.parquet
+results/**
+/models/**
+/tmp
+_*
+.idea
+.ipynb*
+
+.DS_Store
