@@ -9,6 +9,7 @@ verify_ssl = true
 transformers = ">=4.15.0"
 datasets = ">=1.17.0"
 torch = "*"
+google-api-python-client = "*"
 
 [requires]
 python_version = "3.8"

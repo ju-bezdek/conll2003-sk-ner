@@ -25,13 +25,11 @@ logger = datasets.logging.get_logger(__name__)
 
 
 _DESCRIPTION = """\
-This is translated version of original CONLL2003 dataset (tranlated from english to slovak via Google translate)
-Annotation was done mostly automaticaly with word matching scripts. Records where some tags were not matched, were annotated manualy (cca 10%)
-Unlike original Conll2003 dataset, this one conatins only NER tags
+This is translated version of the original CONLL2003 dataset (translated from English to Slovak via Google translate) Annotation was done mostly automatically with word matching scripts. Records where some tags were not matched, were annotated manually (10%) Unlike the original Conll2003 dataset, this one contains only NER tags
 """
 
-_URL =""
-#_URL = "https://github.com/davidsbatista/NER-datasets/raw/master/CONLL2003/"
+_URL="/data/"
+#_URL = "https://github.com/ju-bezdek/conll2003-sk-ner/raw/master/data/"
 _TRAINING_FILE = "train.json"
 _DEV_FILE = "valid.json"
 _TEST_FILE = "test.json"
@@ -101,5 +99,5 @@ class Conll2003(datasets.GeneratorBasedBuilder):
                 record = json.loads(line)   
                 yield guid, record
                 guid += 1
-           
+            
            
