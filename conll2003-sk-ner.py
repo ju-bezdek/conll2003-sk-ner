@@ -28,8 +28,8 @@ _DESCRIPTION = """\
 This is translated version of the original CONLL2003 dataset (translated from English to Slovak via Google translate) Annotation was done mostly automatically with word matching scripts. Records where some tags were not matched, were annotated manually (10%) Unlike the original Conll2003 dataset, this one contains only NER tags
 """
 
-_URL="/data/"
-#_URL = "https://github.com/ju-bezdek/conll2003-sk-ner/raw/master/data/"
+#_URL="/data/"
+_URL = "https://github.com/ju-bezdek/conll2003-sk-ner/raw/master/data/"
 _TRAINING_FILE = "train.json"
 _DEV_FILE = "valid.json"
 _TEST_FILE = "test.json"
