@@ -13,7 +13,7 @@ def main(api_key:str, target_lang="sk", batch_size = 100):
     
     -batch_size - > how many records would be in single google api call ... default = 100
     """
-    
+
     conll2003 = load_dataset("conll2003")
     conll2003["train"]
     src_lang="en"   
@@ -56,4 +56,4 @@ if __name__ == '__main__':
     parser.add_argument('--batch_size', help='how many records would be in single google api call ... default = 100', default=100)
     args = parser.parse_args()
     
-    main(args)
+    main(**vars(args))

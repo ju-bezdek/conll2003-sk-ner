@@ -1,9 +1,9 @@
 *.picle
-results/**
-/models/**
+/results
+/output
+/models
 /tmp
 _*
 .idea
 .ipynb*
-
 .DS_Store
