@@ -81,6 +81,6 @@ https://huggingface.co/datasets/conll2003
 
 #### Annotation process
 
-- Machnine Translation
+- Machine Translation
 - Machine pairing tags with reverse translation, and hardcoded rules (including phrase regex matching etc.)
-- Manual annotation of records that coudlnt be automaticaly matched
+- Manual annotation of records that couldn't be automatically matched
